@@ -214,7 +214,9 @@ img {
 }
 
 /* ABOUT US */
-
+.works {
+  padding-bottom: 120px;
+}
 .works-list {
   display: flex;
   flex-wrap: wrap;
