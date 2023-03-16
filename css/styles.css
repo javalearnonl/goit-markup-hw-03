@@ -191,7 +191,7 @@ img {
   gap: 22px;
 } */
 .about-item.list {
-  width: 400px;
+  flex-basis: calc((100% - 24px * 3) / 4);
 }
 .about-list {
   text-align: left;
@@ -240,7 +240,7 @@ img {
 }
 
 .team-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 24px * 3) / 4);
 }
 
 .team-item {
